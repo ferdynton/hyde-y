@@ -69,9 +69,6 @@ theme = "hyde-y"
 paginate = 10
 paginatePath = "page"
 
-# Enable Disqus integration
-disqusShortname = "your_disqus_shortname"
-
 [permalinks]
     post = "/:year/:month/:day/:slug/"
     code = "/:slug/"
@@ -92,6 +89,9 @@ disqusShortname = "your_disqus_shortname"
     brand = "foobar"
     topline = "few words about your site"
     footline = "code with <i class='fa fa-heart'></i>"
+
+    # Enable Disqus integration
+    disqusShortname = "your_disqus_shortname"
 
     # Sidebar position
     # false, true, "left", "right"
